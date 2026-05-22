@@ -5,9 +5,9 @@ export function Footer() {
         <div className="font-label-mono text-on-surface">Eeshaan Sethia / SOFTWARE ENGINEER</div>
         <div className="font-body-md text-body-md text-text-muted">© 2024 Eeshaan Sethia. Built for high-concurrency.</div>
         <div className="flex gap-6">
-          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="#">Source</a>
-          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="https://linkedin.com/eeshaansethia">LinkedIn</a>
-          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="#">Resume</a>
+          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="https://github.com/sethiaeeshaan" target="_blank" rel="noopener noreferrer">Source</a>
+          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="https://linkedin.com/in/eeshaansethia" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </div>
     </footer>

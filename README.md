@@ -3,9 +3,9 @@
   Backend Engineer · IIT Kharagpur '25 · Astrophysics Enthusiast                                                                             
 </p>    
 
----  
+---
 
-### About Me                                                                                                                                    
+### About Me
 - 🎓 Graduated from **IIT Kharagpur** (Batch of 2025)
 
 - 💼 Backend Engineer at **FinBox** — building reliable, scalable financial systems

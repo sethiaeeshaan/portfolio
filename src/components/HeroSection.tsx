@@ -21,7 +21,7 @@ export function HeroSection() {
         </p>
         
         <div className="flex flex-wrap justify-center gap-4">
-          <a className="px-8 py-3 bg-primary-container text-on-primary-container rounded font-medium hover:bg-primary-container/90 transition-all active:scale-95" href="#">
+          <a className="px-8 py-3 bg-primary-container text-on-primary-container rounded font-medium hover:bg-primary-container/90 transition-all active:scale-95" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             View Resume
           </a>
           <a className="px-8 py-3 border border-border-subtle bg-surface-raised/50 backdrop-blur text-on-surface rounded font-medium hover:bg-white/5 transition-all active:scale-95" href="#contact">

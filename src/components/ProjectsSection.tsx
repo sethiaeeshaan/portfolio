@@ -26,18 +26,17 @@ export function ProjectsSection() {
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="px-6 py-2 bg-white text-black font-bold rounded">Case Study</span>
-              </div>
             </div>
             <div className="p-8">
               <h3 className="font-headline-md text-headline-md mb-4">National Students’ Space Challenge</h3>
               <p className="text-on-surface-variant mb-6">Built a high-availability event management system handling 5000+ QR validations. Integrated an admin portal with real-time analytics and CI/CD pipelines.</p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="font-label-mono text-caption text-primary">Node.js</span>
-                <span className="font-label-mono text-caption text-primary">PostgreSQL</span>
+                <span className="font-label-mono text-caption text-primary">MongoDB</span>
                 <span className="font-label-mono text-caption text-primary">React</span>
+                <span className="font-label-mono text-caption text-primary">Firebase</span>
                 <span className="font-label-mono text-caption text-primary">Docker</span>
+                <span className="font-label-mono text-caption text-primary">Google OAuth</span>
               </div>
             </div>
           </ScrollReveal>
@@ -51,18 +50,14 @@ export function ProjectsSection() {
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                <span className="px-6 py-2 bg-white text-black font-bold rounded">Case Study</span>
-              </div>
             </div>
             <div className="p-8">
               <h3 className="font-headline-md text-headline-md mb-4">Employee Claim Management</h3>
               <p className="text-on-surface-variant mb-6">Hierarchical authentication system with Google Maps API integration. Streamlined claim approvals for distributed workforce with automated audit trails.</p>
               <div className="flex flex-wrap gap-2 mb-6">
-                <span className="font-label-mono text-caption text-primary">Python</span>
-                <span className="font-label-mono text-caption text-primary">Django</span>
-                <span className="font-label-mono text-caption text-primary">Redis</span>
-                <span className="font-label-mono text-caption text-primary">OAuth</span>
+                <span className="font-label-mono text-caption text-primary">React</span>
+                <span className="font-label-mono text-caption text-primary">Node.js</span>
+                <span className="font-label-mono text-caption text-primary">MongoDB</span>
               </div>
             </div>
           </ScrollReveal>

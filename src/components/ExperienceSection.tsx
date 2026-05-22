@@ -42,9 +42,10 @@ export function ExperienceSection() {
                 <h3 className="font-headline-md text-headline-md text-primary">Qualitative Financials</h3>
                 <div className="font-label-mono text-label-mono text-text-muted">Full Stack Engineer // 2022 - 2023</div>
               </div>
-              <div className="glass-card p-6 rounded-xl md:order-1 md:text-right">
-                <ul className="space-y-3 list-disc list-inside md:list-none text-on-surface-variant">
+              <div className="glass-card p-6 rounded-xl md:order-1">
+                <ul className="space-y-3 list-disc list-inside text-on-surface-variant">
                   <li>Integrated PayPal and OAuth providers for secure global transactions.</li>
+                  <li>Incorporated the Google Maps API to facilitate the discovery of 500+ creators.</li>
                   <li>Optimized video streaming performance for mobile devices.</li>
                 </ul>
               </div>

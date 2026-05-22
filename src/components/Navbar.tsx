@@ -1,0 +1,66 @@
+"use client";
+
+import { useEffect, useState } from "react";
+
+const NAV_LINKS = [
+  { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
+  { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects" },
+  { href: "#contact", label: "Contact" },
+];
+
+export function Navbar() {
+  const [activeSection, setActiveSection] = useState("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["about", "skills", "experience", "projects", "contact"];
+      let current = "";
+
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= 100) {
+            current = section;
+          }
+        }
+      }
+      setActiveSection(current);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <nav className="bg-surface/80 backdrop-blur-md text-primary font-body-md text-body-md docked full-width top-0 sticky z-50 border-b border-border-subtle">
+      <div className="flex justify-between items-center w-full px-6 py-4 max-w-container-max-width mx-auto">
+        <div className="font-headline-md text-headline-md font-bold tracking-tighter text-on-surface">Eeshaan Sethia</div>
+        
+        <div className="hidden md:flex items-center gap-8">
+          {NAV_LINKS.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className={`transition-colors duration-200 ${
+                activeSection === link.href.substring(1)
+                  ? "text-primary font-bold border-b-2 border-primary pb-1"
+                  : "text-on-surface-variant hover:text-on-surface"
+              }`}
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
+
+        <div className="flex items-center gap-4">
+          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg cursor-pointer">code</span>
+          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg cursor-pointer">terminal</span>
+          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg cursor-pointer">alternate_email</span>
+        </div>
+      </div>
+    </nav>
+  );
+}

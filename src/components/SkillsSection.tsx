@@ -16,7 +16,7 @@ const SKILLS_DATA = [
   {
     icon: "query_stats",
     title: "Observability",
-    skills: ["Grafana", "OpenTelemetry", "Prometheus", "Thanos"]
+    skills: ["Grafana", "OpenTelemetry", "Prometheus"]
   },
   {
     icon: "devices",
@@ -31,7 +31,7 @@ const SKILLS_DATA = [
   {
     icon: "architecture",
     title: "Architecture",
-    skills: ["Event-Driven", "Microservices", "CI/CD"]
+    skills: ["Microservices", "CI/CD"]
   }
 ];
 

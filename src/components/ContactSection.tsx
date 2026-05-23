@@ -6,8 +6,8 @@ export function ContactSection() {
     <section className="py-section-gap-mobile md:py-section-gap-desktop relative overflow-hidden" id="contact">
       <ScrollReveal className="max-w-4xl mx-auto px-margin-safe text-center">
         <SectionLabel index="05" label="COLLABORATE" />
-        <h2 className="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero mb-8">Ready for the Next Sprint?</h2>
-        <p className="font-body-lg text-body-lg text-on-surface-variant mb-12">I'm currently seeking opportunities to architect fault-tolerant systems in high-growth startups. Let's talk scale.</p>
+        <h2 className="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero mb-8">Let's build together.</h2>
+        <p className="font-body-lg text-body-lg text-on-surface-variant mb-12">Currently seeking opportunities to build and scale reliable backend infrastructure in high-growth startups.</p>
         
         <div className="flex flex-col items-center gap-6">
           <a className="font-headline-lg text-headline-lg border-b border-border-subtle hover:border-primary transition-all pb-2" href="mailto:eeshaans05@gmail.com">eeshaans05@gmail.com</a>

@@ -16,16 +16,25 @@ export function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ["about", "skills", "experience", "projects", "contact"];
+      const triggerLine = window.innerHeight / 2;   
       let current = "";
 
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
-          if (rect.top <= 100) {
+          if (rect.top <= triggerLine && rect.bottom >= triggerLine) {   
             current = section;
+            break;         
           }
         }
+      }
+
+      const scrolledToBottom =
+      window.innerHeight + window.scrollY >=
+      document.documentElement.scrollHeight - 10;
+      if (scrolledToBottom) {
+        current = sections[sections.length - 1];
       }
       setActiveSection(current);
     };

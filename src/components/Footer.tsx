@@ -1,13 +1,14 @@
 export function Footer() {
   return (
-    <footer className="bg-surface-deep border-t border-border-subtle py-12">
-      <div className="flex flex-col md:flex-row justify-between items-center w-full px-8 max-w-container-max-width mx-auto gap-gutter">
-        <div className="font-label-mono text-on-surface">Eeshaan Sethia / SOFTWARE ENGINEER</div>
-        <div className="font-body-md text-body-md text-text-muted">© 2024 Eeshaan Sethia. Built for high-concurrency.</div>
-        <div className="flex gap-6">
-          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="https://github.com/sethiaeeshaan" target="_blank" rel="noopener noreferrer">Source</a>
-          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="https://linkedin.com/in/eeshaansethia" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a className="text-text-muted hover:text-primary transition-colors font-label-mono text-label-mono" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <footer className="py-20 border-t border-border-subtle bg-background" id="footer">
+      <div className="max-w-container-max-width mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
+        <div className="flex flex-col gap-2">
+          <div className="text-lg font-bold text-on-surface">Eeshaan Sethia</div>
+          <div className="text-sm font-label-mono text-text-muted">© 2026. All rights reserved.</div>
+        </div>
+        <div className="flex flex-col md:items-end gap-2">
+          <div className="text-sm font-label-mono text-text-muted">Built for high-concurrency &amp; high-impact.</div>
+          <div className="text-xs text-text-muted/50 uppercase tracking-widest">Optimized for reliability.</div>
         </div>
       </div>
     </footer>

@@ -9,23 +9,23 @@ export function HeroSection() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
           </span>
-          AVAILABLE FOR COLLABORATION
+          Backend Engineer
         </div>
         
         <h1 className="font-display-hero-mobile md:font-display-hero text-display-hero-mobile md:text-display-hero hero-gradient-text mb-6">
-          Building Scalable Systems for High-Growth Startups.
+          Eeshaan Sethia
         </h1>
         
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
-          Engineering fault-tolerant distributed systems with a product-first mindset. Currently building at FinBox.
+          Building reliable backend infrastructure for high-growth startups. Specialized in fault-tolerant systems and scalable architecture at FinBox.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4">
           <a className="px-8 py-3 bg-primary-container text-on-primary-container rounded font-medium hover:bg-primary-container/90 transition-all active:scale-95" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             View Resume
           </a>
-          <a className="px-8 py-3 border border-border-subtle bg-surface-raised/50 backdrop-blur text-on-surface rounded font-medium hover:bg-white/5 transition-all active:scale-95" href="#contact">
-            Get in touch
+          <a className="px-8 py-3 border border-border-subtle bg-surface-raised/50 backdrop-blur text-on-surface rounded font-medium hover:bg-white/5 transition-all active:scale-95" href="#experience">
+            Work History
           </a>
         </div>
 

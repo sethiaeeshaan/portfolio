@@ -28,25 +28,25 @@ const SKILLS_DATA = [
     title: "Databases",
     skills: ["PostgreSQL", "MongoDB", "Redis"]
   },
-  {
-    icon: "architecture",
-    title: "Architecture",
-    skills: ["Microservices", "CI/CD"]
-  }
+  // {
+  //   icon: "architecture",
+  //   title: "Architecture",
+  //   skills: ["Microservices", "CI/CD"]
+  // }
 ];
 
 export function SkillsSection() {
   return (
     <section className="py-section-gap-mobile md:py-section-gap-desktop bg-surface-deep" id="skills">
       <div className="max-w-container-max-width mx-auto px-margin-safe">
-        <ScrollReveal className="text-center mb-16">
+        <ScrollReveal className="mb-16">
           <SectionLabel index="02" label="TECH STACK" />
           <h2 className="font-headline-lg text-headline-lg">Engineered for Performance</h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {SKILLS_DATA.map((category, index) => (
-            <ScrollReveal key={index} className="glass-card p-8 rounded-xl">
+            <ScrollReveal key={index} className="glass-card p-8 rounded-xl w-full md:w-[calc((100%-3rem)/3)]">
               <span className="material-symbols-outlined text-primary mb-4 text-3xl">{category.icon}</span>
               <h3 className="font-headline-md text-headline-md mb-4">{category.title}</h3>
               <div className="flex flex-wrap gap-2">

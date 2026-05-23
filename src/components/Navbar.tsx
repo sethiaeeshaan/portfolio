@@ -46,7 +46,7 @@ export function Navbar() {
   return (
     <nav className="bg-surface/80 backdrop-blur-md text-primary font-body-md text-body-md docked full-width top-0 sticky z-50 border-b border-border-subtle">
       <div className="flex justify-between items-center w-full px-6 py-4 max-w-container-max-width mx-auto">
-        <div className="font-headline-md text-headline-md font-bold tracking-tighter text-on-surface">Eeshaan Sethia</div>
+        <div className="font-headline-md text-headline-md font-bold tracking-tighter text-on-surface"> <a href="#eeshaan">Eeshaan Sethia</a></div>
         
         <div className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((link) => (

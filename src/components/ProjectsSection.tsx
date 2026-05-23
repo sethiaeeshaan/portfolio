@@ -21,7 +21,7 @@ export function ProjectsSection() {
           <ScrollReveal className="group glass-card overflow-hidden rounded-2xl">
             <div className="aspect-video relative overflow-hidden">
               <Image 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV5XNBQEd-IvKrCaCSZ-lA_iERsi-ygy7O362qtZCIV-Yr_YbH3fXAVUTjUdzLNR2nRqzMSaFJU-anWh5eKlH0PjN4U8acYyLh_3NzSuC9wVWAqfALAilLoqFOTFzMUq-bFcZ-SpX8tWWm1VxJV0TielbG6BEIXqkqPEoxPkIN7mykU9hiza_eKqShpafc7Rq8vBhED-3sUyyWkA2c5IbFlidHsTihB8XPDbSwWpvAhlY90BvxvLjwE1ASqjznHW7KSlGWJ6jNDA" 
+                src="/nssc.png" 
                 alt="National Students Space Challenge Project"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -45,19 +45,19 @@ export function ProjectsSection() {
           <ScrollReveal className="group glass-card overflow-hidden rounded-2xl">
             <div className="aspect-video relative overflow-hidden">
               <Image 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDoT_dqL13pJOPaIKUSKiXYbeAaG4GATfX-UR4UtFpNwQPAbpzFiSwDl-3U-RcmqxvtDo_JOAkp95k2RihS8lQdjwqFeKk4YGfevRifsbHZZI8mWPFkiljLetz5YstwAj09N0Rocoeln6z58a7J4LYG8G6SGDtR3R5wPQOwWQ6OOB0sifmZFrs7FHcMG1AJVSpfpyFcWkMX-gHQtqmo3GEnJNHgqvdWz4-eiVyDHViodwP2p805ZEeGlCwrOX7eBlPtNRMj4P4aMw" 
-                alt="Employee Claim Management Project"
+                src="/air_canvas.png" 
+                alt="Air Canvas Project"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>
             <div className="p-8">
-              <h3 className="font-headline-md text-headline-md mb-4">Employee Claim Management</h3>
-              <p className="text-on-surface-variant mb-6">Hierarchical authentication system with Google Maps API integration. Streamlined claim approvals for distributed workforce with automated audit trails.</p>
+              <h3 className="font-headline-md text-headline-md mb-4">Air Canvas</h3>
+              <p className="text-on-surface-variant mb-6">Built a virtual painting application using Python, OpenCV, and MediaPipe that enables real-time hand gesture-based drawing and interaction through a webcam.</p>
               <div className="flex flex-wrap gap-2 mb-6">
-                <span className="font-label-mono text-caption text-primary">React</span>
-                <span className="font-label-mono text-caption text-primary">Node.js</span>
-                <span className="font-label-mono text-caption text-primary">MongoDB</span>
+                <span className="font-label-mono text-caption text-primary">Python</span>
+                <span className="font-label-mono text-caption text-primary">OpenCV</span>
+                <span className="font-label-mono text-caption text-primary">MediaPipe</span>
               </div>
             </div>
           </ScrollReveal>

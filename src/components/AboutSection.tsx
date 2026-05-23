@@ -16,7 +16,7 @@ export function AboutSection() {
             </div>
           </ScrollReveal>
           
-          <ScrollReveal className="relative">
+          <ScrollReveal className="relative hidden md:block">
             <div className="aspect-square glass-card rounded-2xl overflow-hidden group">
               <Image 
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfWsjWUmYD-jQrkCy-R4iW-4yCk_V6WEVC1HyDDIZrrDuMJTGdWAetLN0e5CKQ-MDmW_6o5J1gB8O2l4s6gk1dcj31ZtwZhNnZg_NJMvcmbVLOU8ClwCLdEmxNd1H-5QJH3Fjt1MRf6OxWYsU0rVz0vfdGd03e5Ft-EyOMQFVky0zqzNVrSsWFsonvUTk91pM0ZGpJWHhFb__bfnOWzgHGq_EzKMlE9Oel6eYiXlHYt9jO3KCFoEYFpoiel3xU--s5RpAnMVrnOw"

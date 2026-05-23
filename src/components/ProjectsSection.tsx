@@ -11,13 +11,10 @@ export function ProjectsSection() {
             <SectionLabel index="04" label="PROJECTS" />
             <h2 className="font-headline-lg text-headline-lg">Solving Complex Problems</h2>
           </div>
-          <a className="text-primary hover:underline font-label-mono flex items-center gap-2" href="#">
-            View GitHub <span className="material-symbols-outlined">open_in_new</span>
-          </a>
         </ScrollReveal>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Project 1 */}
+          {/* NSSC */}
           <ScrollReveal className="group glass-card overflow-hidden rounded-2xl">
             <a href="https://2023.nssc.in" target="_blank" rel="noopener noreferrer" className="block">
               <div className="aspect-video relative overflow-hidden">
@@ -43,7 +40,7 @@ export function ProjectsSection() {
             </a>
           </ScrollReveal>
 
-          {/* Project 2 */}
+          {/* AirCanvas */}
           <ScrollReveal className="group glass-card overflow-hidden rounded-2xl">
             <a href="https://github.com/sethiaeeshaan/aircanvas" target="_blank" rel="noopener noreferrer" className="block">
               <div className="aspect-video relative overflow-hidden">

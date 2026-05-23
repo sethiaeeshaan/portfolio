@@ -37,7 +37,7 @@ export function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download Resume
+                Resume
               </a>
               <a
                 className="px-6 sm:px-8 py-3 sm:py-3.5 border border-white/10 hover:bg-white/5 rounded-full font-medium transition-all text-sm text-center"

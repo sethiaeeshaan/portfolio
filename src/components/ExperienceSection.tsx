@@ -72,7 +72,7 @@ export function ExperienceSection() {
           </ScrollReveal>
 
           {/* Rean Watertech */}
-          <ScrollReveal className="relative">
+          <ScrollReveal className="relative mb-20">
             <div className="hidden md:block absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
             <div className="md:hidden absolute -left-8 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
             <div className="grid md:grid-cols-2 gap-8 md:gap-24">
@@ -85,6 +85,25 @@ export function ExperienceSection() {
                   <li>Built a Selenium scraper extracting 25,000+ government water tenders, with OpenCV CAPTCHA solving.</li>
                   <li>Engineered an Employee Management System with a React admin dashboard and React Native mobile app.</li>
                   <li>Shipped payslip, attendance, and leave-request workflows for employees.</li>
+                </ul>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          {/* Freelance */}
+          <ScrollReveal className="relative">
+            <div className="hidden md:block absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
+            <div className="md:hidden absolute -left-8 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
+            <div className="grid md:grid-cols-2 gap-8 md:gap-24">
+              <div className="md:text-right">
+                <h3 className="font-headline-md text-headline-md text-primary">Freelance</h3>
+                <div className="font-label-mono text-label-mono text-text-muted">Software Engineer // 2019 - Present</div>
+              </div>
+              <div className="glass-card p-6 rounded-xl">
+                <ul className="space-y-3 list-disc list-inside text-on-surface-variant">
+                  <li>Shipped real-time chat over WebSockets and low-latency video calls with the Agora SDK for an early-stage startup.</li>
+                  <li>Delivered 20+ virtual lab assignments across Network Security, Java, and SQL coursework for global clients.</li>
+                  <li>Partnered with founders and engineering teams across timezones to scope and ship features on tight cycles.</li>
                 </ul>
               </div>
             </div>

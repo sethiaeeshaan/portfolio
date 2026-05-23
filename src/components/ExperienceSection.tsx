@@ -21,7 +21,7 @@ export function ExperienceSection() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-24">
               <div className="md:text-right">
                 <h3 className="font-headline-md text-headline-md text-primary">FinBox</h3>
-                <div className="font-label-mono text-label-mono text-text-muted">Backend Engineer // 2023 - Present</div>
+                <div className="font-label-mono text-label-mono text-text-muted">Backend Engineer // 2025 - Present</div>
               </div>
               <div className="glass-card p-6 rounded-xl border-primary/50 bg-primary/5">
                 <ul className="space-y-3 list-disc list-inside text-on-surface-variant">
@@ -40,7 +40,7 @@ export function ExperienceSection() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-24">
               <div className="md:order-2">
                 <h3 className="font-headline-md text-headline-md text-primary">Qualitative Financials</h3>
-                <div className="font-label-mono text-label-mono text-text-muted">Full Stack Engineer // 2022 - 2023</div>
+                <div className="font-label-mono text-label-mono text-text-muted">Full Stack Engineer // 2024 - 2025</div>
               </div>
               <div className="glass-card p-6 rounded-xl md:order-1">
                 <ul className="space-y-3 list-disc list-inside text-on-surface-variant">
@@ -102,7 +102,7 @@ export function ExperienceSection() {
               <div className="glass-card p-6 rounded-xl">
                 <ul className="space-y-3 list-disc list-inside text-on-surface-variant">
                   <li>Shipped real-time chat over WebSockets and low-latency video calls with the Agora SDK for an early-stage startup.</li>
-                  <li>Delivered 20+ virtual lab assignments across Network Security, Java, and SQL coursework for global clients.</li>
+                  <li>Delivered 1000+ virtual lab assignments across Network Security, Java, and SQL coursework for global clients.</li>
                   <li>Partnered with founders and engineering teams across timezones to scope and ship features on tight cycles.</li>
                 </ul>
               </div>

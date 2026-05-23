@@ -11,8 +11,9 @@ export function AboutSection() {
             <SectionLabel index="01" label="IDENTITY" />
             <h2 className="font-headline-lg text-headline-lg mb-6">Building with a Product-Engineer Mindset</h2>
             <div className="space-y-4 text-on-surface-variant">
-              <p>I specialize in building high-availability backend infrastructures that power modern digital economies. My primary focus is at FinBox, where I architect complex, long-running workflows using Temporal and manage large-scale distributed systems.</p>
-              <p>My technical rigor is dedicated to ensuring system reliability and deep observability. I lead the implementation of OpenTelemetry and Grafana stacks across microservices to provide actionable insights into production performance, ensuring our infrastructure remains robust as we scale.</p>
+              <p>I’m a software engineer from <b>Indian Institute of Technology Kharagpur</b> who believes technology becomes meaningful when combined with leadership, collaboration, and vision. During my time in college, I’ve led teams and large-scale initiatives as General Secretary and Web Head at Students' Association for Technology in Space and National Students' Space Challenge. These experiences shaped my ability to manage teams, drive execution under pressure, organize impactful technical events, and build communities around innovation and space technology.</p>
+              <p>I enjoy building backend systems that stay reliable under scale and complexity. My work revolves around distributed systems, long-running workflows, and infrastructure observability — understanding not just how systems work, but how they fail, recover, and evolve over time. I’m naturally drawn to solving engineering problems that require deep thinking, clean architecture, and attention to reliability in production environments.</p>
+              <p>Beyond engineering, I’m deeply interested in finance, economics, and startups. I’ve spent years studying equity markets and exploring how technology intersects with business and human behavior. Whether it’s designing scalable software, optimizing workflows, or experimenting with ambitious product ideas, I’m driven by curiosity and the desire to create meaningful impact through technology.</p>
             </div>
           </ScrollReveal>
           

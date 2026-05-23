@@ -8,7 +8,7 @@ export function ProjectsSection() {
       <div className="max-w-container-max-width mx-auto px-margin-safe">
         <ScrollReveal className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
           <div>
-            <SectionLabel index="04" label="CASE STUDIES" />
+            <SectionLabel index="04" label="PROJECTS" />
             <h2 className="font-headline-lg text-headline-lg">Solving Complex Problems</h2>
           </div>
           <a className="text-primary hover:underline font-label-mono flex items-center gap-2" href="#">

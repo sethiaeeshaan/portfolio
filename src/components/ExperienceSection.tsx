@@ -17,7 +17,7 @@ export function ExperienceSection() {
           {/* FinBox */}
           <ScrollReveal className="relative mb-20">
             <div className="hidden md:block absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary ring-8 ring-primary/10"></div>
-            <div className="md:hidden absolute left-0 -translate-x-1/2 w-4 h-4 rounded-full bg-primary ring-8 ring-primary/10"></div>
+            <div className="md:hidden absolute -left-8 -translate-x-1/2 w-4 h-4 rounded-full bg-primary ring-8 ring-primary/10"></div>
             <div className="grid md:grid-cols-2 gap-8 md:gap-24">
               <div className="md:text-right">
                 <h3 className="font-headline-md text-headline-md text-primary">FinBox</h3>
@@ -36,7 +36,7 @@ export function ExperienceSection() {
           {/* Qualitative Financials */}
           <ScrollReveal className="relative mb-20">
             <div className="hidden md:block absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
-            <div className="md:hidden absolute left-0 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
+            <div className="md:hidden absolute -left-8 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
             <div className="grid md:grid-cols-2 gap-8 md:gap-24">
               <div className="md:order-2">
                 <h3 className="font-headline-md text-headline-md text-primary">Qualitative Financials</h3>
@@ -55,7 +55,7 @@ export function ExperienceSection() {
           {/* MyGate */}
           <ScrollReveal className="relative">
             <div className="hidden md:block absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
-            <div className="md:hidden absolute left-0 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
+            <div className="md:hidden absolute -left-8 -translate-x-1/2 w-4 h-4 rounded-full bg-surface border-2 border-primary"></div>
             <div className="grid md:grid-cols-2 gap-8 md:gap-24">
               <div className="md:text-right">
                 <h3 className="font-headline-md text-headline-md text-primary">MyGate</h3>

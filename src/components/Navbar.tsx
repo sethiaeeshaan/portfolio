@@ -65,9 +65,9 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg cursor-pointer">code</span>
-          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg cursor-pointer">terminal</span>
-          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg cursor-pointer">alternate_email</span>
+          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg">code</span>
+          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg">terminal</span>
+          <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg">alternate_email</span>
         </div>
       </div>
     </nav>

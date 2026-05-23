@@ -10,7 +10,7 @@ export function ContactSection() {
         <p className="font-body-lg text-body-lg text-on-surface-variant mb-12">Currently seeking opportunities to build and scale reliable backend infrastructure in high-growth startups.</p>
         
         <div className="flex flex-col items-center gap-6">
-          <a className="font-headline-lg text-headline-lg border-b border-border-subtle hover:border-primary transition-all pb-2" href="mailto:eeshaans05@gmail.com">eeshaans05@gmail.com</a>
+          <a className="font-headline-lg text-xl md:text-headline-lg break-all border-b border-border-subtle hover:border-primary transition-all pb-2" href="mailto:eeshaans05@gmail.com">eeshaans05@gmail.com</a>
           
           <div className="flex gap-8 mt-8">
             <a className="group" href="https://github.com/sethiaeeshaan" target="_blank" rel="noopener noreferrer">

@@ -6,13 +6,31 @@ export function HeroSection() {
       <ScrollReveal className="max-w-5xl w-full mx-auto active">
         <div className="grid md:grid-cols-12 md:gap-12 items-center">
           <div className="md:col-span-5 md:order-2 relative">
-            <div className="relative aspect-[4/5] rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-transparent max-w-[260px] sm:max-w-xs mx-auto md:max-w-none">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                alt="Eeshaan Sethia portrait"
-                className="w-full h-full object-contain object-bottom relative z-10"
-                src="/portrait.png"
-              />
+            <div className="relative mx-auto max-w-[260px] sm:max-w-xs md:max-w-none">
+              {/* Orbital halo backdrop */}
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none" aria-hidden="true">
+                {/* Soft radial glow */}
+                <div className="absolute aspect-square w-[120%] rounded-full bg-[radial-gradient(circle,rgba(195,192,255,0.22)_0%,rgba(195,192,255,0.06)_45%,transparent_70%)]" />
+
+                {/* Crisp inner ring with subtle inner glow */}
+                <div className="absolute aspect-square w-[92%] rounded-full border border-primary/40 shadow-[inset_0_0_40px_-10px_rgba(195,192,255,0.25)]" />
+
+                {/* Outer dashed orbit + satellite dots, slowly rotating */}
+                <div className="absolute aspect-square w-[108%] rounded-full border border-dashed border-primary/20 motion-safe:animate-[spin_80s_linear_infinite]">
+                  <span className="absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-primary shadow-[0_0_12px_2px_rgba(195,192,255,0.6)]" />
+                  <span className="absolute top-[12%] right-[8%] w-1.5 h-1.5 rounded-full bg-primary/70" />
+                </div>
+              </div>
+
+              {/* Portrait foreground */}
+              <div className="relative aspect-[4/5] z-10">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  alt="Eeshaan Sethia portrait"
+                  className="w-full h-full object-contain object-bottom"
+                  src="/portrait.png"
+                />
+              </div>
             </div>
           </div>
 

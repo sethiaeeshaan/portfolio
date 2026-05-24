@@ -48,7 +48,7 @@ export function Navbar() {
       <div className="flex justify-between items-center w-full px-6 py-4 max-w-container-max-width mx-auto">
         <div className="font-headline-md text-lg md:text-headline-md font-bold tracking-tighter text-on-surface"> <a href="#eeshaan">Eeshaan Sethia</a></div>
         
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center md:gap-4 lg:gap-8">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}

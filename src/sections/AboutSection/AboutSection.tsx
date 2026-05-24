@@ -1,6 +1,5 @@
-import Image from "next/image";
-import { ScrollReveal } from "./ScrollReveal";
-import { SectionLabel } from "./SectionLabel";
+import { ScrollReveal } from "@/components/ScrollReveal";
+import { SectionLabel } from "@/components/SectionLabel";
 
 export function AboutSection() {
   return (

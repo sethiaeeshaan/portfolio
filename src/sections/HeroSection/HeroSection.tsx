@@ -1,8 +1,8 @@
-import { ScrollReveal } from "./ScrollReveal";
+import { ScrollReveal } from "@/components/ScrollReveal";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center pb-8 md:pb-20 px-margin-safe overflow-hidden" id="eeshaan">
+    <section className="relative py-section-gap-mobile md:py-section-gap-desktop flex flex-col items-center justify-center px-margin-safe overflow-hidden" id="eeshaan">
       <ScrollReveal className="max-w-5xl w-full mx-auto active">
         <div className="grid md:grid-cols-12 md:gap-12 items-center">
           <div className="md:col-span-5 md:order-2 relative">

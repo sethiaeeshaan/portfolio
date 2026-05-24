@@ -46,7 +46,7 @@ export function Navbar() {
   return (
     <nav className="bg-surface/80 backdrop-blur-md text-primary font-body-md text-body-md docked full-width top-0 sticky z-50 border-b border-border-subtle">
       <div className="flex justify-between items-center w-full px-6 py-4 max-w-container-max-width mx-auto">
-        <div className="font-headline-md text-headline-md font-bold tracking-tighter text-on-surface"> <a href="#eeshaan">Eeshaan Sethia</a></div>
+        <div className="font-headline-md text-lg md:text-headline-md font-bold tracking-tighter text-on-surface"> <a href="#eeshaan">Eeshaan Sethia</a></div>
         
         <div className="hidden md:flex items-center gap-8">
           {NAV_LINKS.map((link) => (
@@ -64,11 +64,14 @@ export function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center gap-4">
+        {/* <div className="flex items-center gap-4">
           <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg">code</span>
           <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg">terminal</span>
           <span className="material-symbols-outlined hover:bg-white/5 transition-all duration-300 p-2 rounded-lg">alternate_email</span>
-        </div>
+        </div> */}
+        <a className="px-5 py-2.5 bg-on-surface text-background font-medium text-xs md:text-sm rounded-full hover:bg-primary transition-all active:scale-95" href="#contact">
+            Let's Connect
+        </a>
       </div>
     </nav>
   );

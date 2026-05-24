@@ -2,7 +2,7 @@ import { ScrollReveal } from "./ScrollReveal";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center pb-16 md:pb-20 px-margin-safe overflow-hidden" id="eeshaan">
+    <section className="relative min-h-screen flex flex-col items-center justify-center pb-8 md:pb-20 px-margin-safe overflow-hidden" id="eeshaan">
       <ScrollReveal className="max-w-5xl w-full mx-auto active">
         <div className="grid md:grid-cols-12 md:gap-12 items-center">
           <div className="md:col-span-5 md:order-2 relative">
@@ -17,17 +17,17 @@ export function HeroSection() {
           </div>
 
           <div className="md:col-span-7 md:order-1 text-center md:text-left">
-            <div className="inline-flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-1.5 mb-6 md:mb-8 rounded-full border border-white/10 bg-white/5 text-[10px] sm:text-[11px] font-label-mono uppercase tracking-[0.15em] sm:tracking-[0.2em] text-primary">
+            <div className="inline-flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-1.5 mb-4 md:mb-8 rounded-full border border-white/10 bg-white/5 text-[10px] sm:text-[11px] font-label-mono uppercase tracking-[0.15em] sm:tracking-[0.2em] text-primary">
               <span className="flex h-1.5 w-1.5 rounded-full bg-primary animate-pulse shrink-0"></span>
               <span>Backend Engineer</span>
             </div>
 
-            <h1 className="text-[clamp(36px,9vw,90px)] leading-[0.95] md:leading-[0.9] font-bold tracking-tight hero-gradient-text mb-6 md:mb-8">
+            <h1 className="text-[clamp(36px,9vw,90px)] leading-[0.95] md:leading-[0.9] font-bold tracking-tight hero-gradient-text mb-4 md:mb-8">
               Eeshaan Sethia
             </h1>
 
-            <p className="font-body-lg text-base sm:text-lg md:text-xl text-on-surface-variant max-w-xl mx-auto md:mx-0 mb-8 md:mb-12 leading-relaxed">
-              Building reliable backend infrastructure for high-growth startups. Specialized in fault-tolerant systems and scalable architecture at FinBox.
+            <p className="font-body-lg text-base sm:text-lg md:text-xl text-on-surface-variant max-w-xl mx-auto md:mx-0 mb-6 md:mb-12 leading-relaxed">
+              Building reliable backend infrastructure for high-growth startups.
             </p>
 
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center md:justify-start items-stretch sm:items-center gap-3 sm:gap-4 md:gap-6">
@@ -49,7 +49,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-16 flex justify-center gap-5 sm:gap-6 md:gap-8 grayscale opacity-50">
+        <div className="mt-6 md:mt-16 flex justify-center gap-5 sm:gap-6 md:gap-8 grayscale opacity-50">
           <span className="material-symbols-outlined text-2xl sm:text-3xl md:text-4xl">database</span>
           <span className="material-symbols-outlined text-2xl sm:text-3xl md:text-4xl">hub</span>
           <span className="material-symbols-outlined text-2xl sm:text-3xl md:text-4xl">monitoring</span>

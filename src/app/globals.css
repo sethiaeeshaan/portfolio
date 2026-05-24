@@ -64,8 +64,8 @@
   --radius-full: 9999px;
 
   /* Spacing */
-  --spacing-section-gap-mobile: 48px;
-  --spacing-section-gap-desktop: 160px;
+  --spacing-section-gap-mobile: 20px;
+  --spacing-section-gap-desktop: 64px;
   --spacing-container-max-width: 1200px;
   --spacing-base: 8px;
   --spacing-margin-safe: 32px;
